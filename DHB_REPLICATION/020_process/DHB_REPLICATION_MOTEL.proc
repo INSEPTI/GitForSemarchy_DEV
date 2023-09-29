@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc:process xmlns:proc="http://www.example.org/proc" id="2a764a92-1ab7-4b6d-9c21-0f73f0503d76">
+  <actionCode id="706fd823-caa9-456c-89c9-f5d2a02a02ad" isBeginAction="false" name="Start replication" nbCycles="-1" toleratedError="false" technology="com.indy.engine.actionCodes.EmptyActionCodeI"/>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:proc="http://www.example.org/proc" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation http://www.eclipse.org/gmf/runtime/1.0.3/notation#/?fileId=2a764a92-1ab7-4b6d-9c21-0f73f0503d76?" xmi:id="_ZgrT4V8dEe6PHahGNfrU1Q" type="Proc" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_aslGUF8dEe6PHahGNfrU1Q" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_asu3UF8dEe6PHahGNfrU1Q" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_asu3UV8dEe6PHahGNfrU1Q" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_asu3Ul8dEe6PHahGNfrU1Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_asu3U18dEe6PHahGNfrU1Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_asu3VF8dEe6PHahGNfrU1Q"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_asu3VV8dEe6PHahGNfrU1Q" type="7002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_asu3Vl8dEe6PHahGNfrU1Q"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_asu3V18dEe6PHahGNfrU1Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_asu3WF8dEe6PHahGNfrU1Q"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_aslGUV8dEe6PHahGNfrU1Q" fontName="Segoe UI"/>
+    <element xmi:type="proc:ActionCode" href="resource.proc#706fd823-caa9-456c-89c9-f5d2a02a02ad?fileId=2a764a92-1ab7-4b6d-9c21-0f73f0503d76$type=proc$name=Start%20replication?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aslGUl8dEe6PHahGNfrU1Q" x="531" y="55"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ZgrT4l8dEe6PHahGNfrU1Q"/>
+  <element xmi:type="proc:ActionProcess" href="resource.proc#2a764a92-1ab7-4b6d-9c21-0f73f0503d76?fileId=2a764a92-1ab7-4b6d-9c21-0f73f0503d76$type=proc$name=DHB_REPLICATION_MOTEL?"/>
+</notation:Diagram>
+]]></diagram>
+</proc:process>
