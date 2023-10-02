@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:map xmlns:map="http://www.indy.com/v2/map" id="_T0mC0GE2Ee6HuOB7o3b2AA" internalVersion="8" tech="resource.tech#_waYSMH8VEd2__Mzb_dB76A?fileId=_waYSMH8VEd2__Mzb_dB76A$type=tech$name=flow?">
+  <datastore id="_VwhkAGE2Ee6HuOB7o3b2AA" alias="T_PHONES" dataset="_VxfNUGE2Ee6HuOB7o3b2AA" ref="resource.md#_HlkhMWE2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=T_PHONES?">
+    <field id="_VxAFImE2Ee6HuOB7o3b2AA" name="PHO_LOCALISATION" ref="resource.md#_HmhjfmE2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=PHO_LOCALISATION?"/>
+    <field id="_VxAFIWE2Ee6HuOB7o3b2AA" fullAlias="PHO_NUMBER" name="PHO_NUMBER" ref="resource.md#_Hmhjd2E2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=PHO_NUMBER?"/>
+    <field id="_VxAFIGE2Ee6HuOB7o3b2AA" fullAlias="PHT_CODE" name="PHT_CODE" ref="resource.md#_HmhjcGE2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=PHT_CODE?"/>
+    <field id="_Vw-3AGE2Ee6HuOB7o3b2AA" fullAlias="CUS_ID" name="CUS_ID" ref="resource.md#_HmXyeGE2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=CUS_ID?"/>
+    <field id="_Vw5-gGE2Ee6HuOB7o3b2AA" fullAlias="PHO_ID" name="PHO_ID" ref="resource.md#_HmXycGE2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=PHO_ID?" updateKey="true"/>
+    <constraint id="_VxAFI2E2Ee6HuOB7o3b2AA" name="PK_T_PHONESE" ref="resource.md#_HmnqEGE2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=PK_T_PHONESE?" reject="true"/>
+    <constraint id="_VxAFJGE2Ee6HuOB7o3b2AA" name="FK_PHONE_CUSTOMER" ref="resource.md#_HoFCoGE2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=FK_PHONE_CUSTOMER?" reject="true"/>
+    <constraint id="_VxAFJWE2Ee6HuOB7o3b2AA" name="FK_PHONE_PHONE_TYPE" ref="resource.md#_HoFCpGE2Ee6HuOB7o3b2AA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=FK_PHONE_PHONE_TYPE?" reject="true"/>
+  </datastore>
+  <datastore id="_WUYfAGE2Ee6HuOB7o3b2AA" alias="T_PHONE" dataset="_WUjeIGE2Ee6HuOB7o3b2AA" ref="resource.md#_LA9qAWE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=T_PHONE?" subExpression="[A]">
+    <field id="_WUelomE2Ee6HuOB7o3b2AA" enable="true" insert="true" name="PHO_NUMBER" ref="resource.md#_LBend2E2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=PHO_NUMBER?" update="true">
+      <expression id="_XAy5EGE2Ee6HuOB7o3b2AA" setDescriptorRef="_XAmr0GE2Ee6HuOB7o3b2AA">
+        <expression>T_PHONES.PHO_NUMBER</expression>
+      </expression>
+    </field>
+    <field id="_WUelo2E2Ee6HuOB7o3b2AA" name="PHO_PHONING_ALLOWED" ref="resource.md#_LBenfmE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=PHO_PHONING_ALLOWED?">
+      <expression id="_XAy5EWE2Ee6HuOB7o3b2AA" setDescriptorRef="_XAmr0GE2Ee6HuOB7o3b2AA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_WUdXgWE2Ee6HuOB7o3b2AA" enable="true" insert="true" name="PHO_ID" ref="resource.md#_LBenYGE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=PHO_ID?" update="true" updateKey="true">
+      <expression id="_XAy5EmE2Ee6HuOB7o3b2AA" setDescriptorRef="_XAmr0GE2Ee6HuOB7o3b2AA">
+        <expression>T_PHONES.PHO_ID</expression>
+      </expression>
+    </field>
+    <field id="_WUeloWE2Ee6HuOB7o3b2AA" enable="true" insert="true" name="PHT_CODE" ref="resource.md#_LBencGE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=PHT_CODE?" update="true">
+      <expression id="_XAy5E2E2Ee6HuOB7o3b2AA" setDescriptorRef="_XAmr0GE2Ee6HuOB7o3b2AA">
+        <expression>T_PHONES.PHT_CODE</expression>
+      </expression>
+    </field>
+    <field id="_WUeloGE2Ee6HuOB7o3b2AA" enable="true" insert="true" name="CUS_ID" ref="resource.md#_LBenaGE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=CUS_ID?" update="true">
+      <expression id="_XAy5FGE2Ee6HuOB7o3b2AA" setDescriptorRef="_XAmr0GE2Ee6HuOB7o3b2AA">
+        <expression>T_PHONES.CUS_ID</expression>
+      </expression>
+    </field>
+    <field id="_iU-jEGE2Ee6HuOB7o3b2AA" enable="true" insert="true" name="TEC_CREA_DATE" ref="resource.md#_bTIQ8GE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=TEC_CREA_DATE?" update="false">
+      <expression id="_iU-jEWE2Ee6HuOB7o3b2AA" location="TRG" setDescriptorRef="_XAmr0GE2Ee6HuOB7o3b2AA">
+        <expression>current_timestamp</expression>
+      </expression>
+    </field>
+    <field id="_nYL-QGE2Ee6HuOB7o3b2AA" enable="true" insert="true" name="TEC_UPD_DATE" ref="resource.md#_jyBI0GE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=TEC_UPD_DATE?" update="true">
+      <expression id="_nYL-QWE2Ee6HuOB7o3b2AA" location="TRG" setDescriptorRef="_XAmr0GE2Ee6HuOB7o3b2AA">
+        <expression>current_timestamp</expression>
+      </expression>
+    </field>
+    <field id="_sxUmIGE2Ee6HuOB7o3b2AA" enable="true" insert="true" name="TEC_DATAFLOW" ref="resource.md#_oQ2roGE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=TEC_DATAFLOW?" update="true">
+      <expression id="_sxUmIWE2Ee6HuOB7o3b2AA" location="TRG" setDescriptorRef="_XAmr0GE2Ee6HuOB7o3b2AA">
+        <expression>'%x{tech:mappingName()}x%'</expression>
+      </expression>
+    </field>
+    <constraint id="_WUelpGE2Ee6HuOB7o3b2AA" name="FK_PHONE_PHONE_TYPE" ref="resource.md#_LCes9GE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=FK_PHONE_PHONE_TYPE?" reject="true"/>
+    <constraint id="_WUelpWE2Ee6HuOB7o3b2AA" name="FK_PHONE_CUSTOMER" ref="resource.md#_LCes8GE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=FK_PHONE_CUSTOMER?" reject="true"/>
+    <constraint id="_WUelpmE2Ee6HuOB7o3b2AA" name="PK_T_PHONE" ref="resource.md#_LBnxUGE2Ee6HuOB7o3b2AA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=PK_T_PHONE?" reject="true"/>
+    <setDescriptor id="_XAmr0GE2Ee6HuOB7o3b2AA" label="A"/>
+  </datastore>
+  <template id="_XBFM8GE2Ee6HuOB7o3b2AA" name="I_T_PHONE" process="resource.proc#_HFOfdjEZEd-WZe6cNi2k2w?fileId=_HFOfdjEZEd-WZe6cNi2k2w$type=proc$name=INTEGRATION%20Hsql?" targetId="_WUYfAGE2Ee6HuOB7o3b2AA">
+    <parameter id="_YRTpQGE3Ee6HuOB7o3b2AA" name="createTargetTable" value="drop and create"/>
+    <parameter id="_dba9sGE3Ee6HuOB7o3b2AA" name="appendMode" value="true"/>
+  </template>
+  <dataSet id="_VxfNUGE2Ee6HuOB7o3b2AA">
+    <container>_VwhkAGE2Ee6HuOB7o3b2AA</container>
+  </dataSet>
+  <dataSet id="_WUjeIGE2Ee6HuOB7o3b2AA">
+    <container>_WUYfAGE2Ee6HuOB7o3b2AA</container>
+  </dataSet>
+  <hint>
+    <usedField>#_VxAFIWE2Ee6HuOB7o3b2AA</usedField>
+    <usedField>#_VxAFIGE2Ee6HuOB7o3b2AA</usedField>
+    <usedField>#_Vw-3AGE2Ee6HuOB7o3b2AA</usedField>
+    <usedField>#_Vw5-gGE2Ee6HuOB7o3b2AA</usedField>
+  </hint>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:map="http://www.indy.com/v2/map" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation " xmi:id="_T54ygGE2Ee6HuOB7o3b2AA" type="Map" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_VyQCUGE2Ee6HuOB7o3b2AA" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VyWI8GE2Ee6HuOB7o3b2AA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VyWI8WE2Ee6HuOB7o3b2AA" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VyWI8mE2Ee6HuOB7o3b2AA" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VyWI82E2Ee6HuOB7o3b2AA" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_VyWI9GE2Ee6HuOB7o3b2AA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VyWI9WE2Ee6HuOB7o3b2AA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VyWI9mE2Ee6HuOB7o3b2AA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VyWI92E2Ee6HuOB7o3b2AA" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VyWI-GE2Ee6HuOB7o3b2AA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VyWI-WE2Ee6HuOB7o3b2AA" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VyWI-mE2Ee6HuOB7o3b2AA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VyWI-2E2Ee6HuOB7o3b2AA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Vz5BEGE2Ee6HuOB7o3b2AA" type="7007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Vz5BEWE2Ee6HuOB7o3b2AA" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Vz5BEmE2Ee6HuOB7o3b2AA"/>
+    </children>
+    <element xmi:type="map:Datastore" href="resource.map#_VwhkAGE2Ee6HuOB7o3b2AA?fileId=_T0mC0GE2Ee6HuOB7o3b2AA$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VyQCUWE2Ee6HuOB7o3b2AA" x="158" y="150"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_WUqy4GE2Ee6HuOB7o3b2AA" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WUqy4mE2Ee6HuOB7o3b2AA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WUqy42E2Ee6HuOB7o3b2AA" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WUqy5GE2Ee6HuOB7o3b2AA" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WUqy5WE2Ee6HuOB7o3b2AA" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_WUqy5mE2Ee6HuOB7o3b2AA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WUqy52E2Ee6HuOB7o3b2AA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WUqy6GE2Ee6HuOB7o3b2AA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WUqy6WE2Ee6HuOB7o3b2AA" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_WUqy6mE2Ee6HuOB7o3b2AA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WUqy62E2Ee6HuOB7o3b2AA" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WUqy7GE2Ee6HuOB7o3b2AA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WUqy7WE2Ee6HuOB7o3b2AA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_WUqy7mE2Ee6HuOB7o3b2AA" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_WUYfAGE2Ee6HuOB7o3b2AA?fileId=_T0mC0GE2Ee6HuOB7o3b2AA$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WUqy4WE2Ee6HuOB7o3b2AA" x="747" y="149"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_T54ygWE2Ee6HuOB7o3b2AA"/>
+  <element xmi:type="map:Map" href="resource.map#_T0mC0GE2Ee6HuOB7o3b2AA?fileId=_T0mC0GE2Ee6HuOB7o3b2AA$type=map$name=LOAD_T_PHONE?"/>
+  <edges xmi:type="notation:Edge" xmi:id="_XDZhIGE2Ee6HuOB7o3b2AA" type="targetLink" source="_WUqy4GE2Ee6HuOB7o3b2AA" target="_VyQCUGE2Ee6HuOB7o3b2AA">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XDZhIWE2Ee6HuOB7o3b2AA" points="[-128, -3, 580, 0]$[-598, 0, 110, 3]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_XDkgQGE2Ee6HuOB7o3b2AA" type="targetDataSetLink" source="_WUqy4GE2Ee6HuOB7o3b2AA" target="_WUqy4GE2Ee6HuOB7o3b2AA">
+    <element xmi:type="map:DataSet" href="resource.map#_VxfNUGE2Ee6HuOB7o3b2AA?fileId=_T0mC0GE2Ee6HuOB7o3b2AA$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XDkgQWE2Ee6HuOB7o3b2AA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_XDkgQmE2Ee6HuOB7o3b2AA" type="targetSetLink" source="_WUqy4GE2Ee6HuOB7o3b2AA" target="_WUqy4GE2Ee6HuOB7o3b2AA">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_XAmr0GE2Ee6HuOB7o3b2AA?fileId=_T0mC0GE2Ee6HuOB7o3b2AA$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XDkgQ2E2Ee6HuOB7o3b2AA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>
+]]></diagram>
+</map:map>
