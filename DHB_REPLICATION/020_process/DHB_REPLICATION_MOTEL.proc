@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <proc:process xmlns:proc="http://www.example.org/proc" id="2a764a92-1ab7-4b6d-9c21-0f73f0503d76">
-  <actionCode id="706fd823-caa9-456c-89c9-f5d2a02a02ad" isBeginAction="false" name="Start replication" nbCycles="-1" toleratedError="false" technology="com.indy.engine.actionCodes.EmptyActionCodeI">
-    <link id="470e44ca-36ca-4443-9eb9-691845d7a542" executionType="OK" generationType="OK_KO" mandatory="1" targetId="5c3ddcf9-8736-4399-b1aa-015dacf3f030"/>
-  </actionCode>
-  <actionProcessRef id="5c3ddcf9-8736-4399-b1aa-015dacf3f030" isBeginAction="false" name="LOAD_T_PHONE" nbCycles="-1" toleratedError="false" processMap="true" targetName="resource.map#_T0mC0GE2Ee6HuOB7o3b2AA?fileId=_T0mC0GE2Ee6HuOB7o3b2AA$name=LOAD_T_PHONE$type=map?"/>
+  <actionCode id="706fd823-caa9-456c-89c9-f5d2a02a02ad" isBeginAction="false" name="Start replication" nbCycles="-1" toleratedError="false" technology="com.indy.engine.actionCodes.EmptyActionCodeI"/>
   <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:proc="http://www.example.org/proc" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation http://www.eclipse.org/gmf/runtime/1.0.3/notation#/?fileId=2a764a92-1ab7-4b6d-9c21-0f73f0503d76?" xmi:id="_ZgrT4V8dEe6PHahGNfrU1Q" type="Proc" measurementUnit="Pixel">
   <children xmi:type="notation:Node" xmi:id="_aslGUF8dEe6PHahGNfrU1Q" type="2001">
@@ -20,33 +17,10 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_aslGUV8dEe6PHahGNfrU1Q" fontName="Segoe UI"/>
     <element xmi:type="proc:ActionCode" href="resource.proc#706fd823-caa9-456c-89c9-f5d2a02a02ad?fileId=2a764a92-1ab7-4b6d-9c21-0f73f0503d76$type=proc$name=Start%20replication?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aslGUl8dEe6PHahGNfrU1Q" x="558" y="78"/>
-  </children>
-  <children xmi:type="notation:Node" xmi:id="_8aExwGE4Ee6HuOB7o3b2AA" type="2003">
-    <children xmi:type="notation:Node" xmi:id="_8aExw2E4Ee6HuOB7o3b2AA" type="5003"/>
-    <children xmi:type="notation:Node" xmi:id="_8aExxGE4Ee6HuOB7o3b2AA" type="7003">
-      <styles xmi:type="notation:DrawerStyle" xmi:id="_8aExxWE4Ee6HuOB7o3b2AA" collapsed="true"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_8aExxmE4Ee6HuOB7o3b2AA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_8aExx2E4Ee6HuOB7o3b2AA"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_8aExyGE4Ee6HuOB7o3b2AA" type="7004">
-      <styles xmi:type="notation:DrawerStyle" xmi:id="_8aExyWE4Ee6HuOB7o3b2AA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_8aExymE4Ee6HuOB7o3b2AA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_8aExy2E4Ee6HuOB7o3b2AA"/>
-    </children>
-    <styles xmi:type="notation:ShapeStyle" xmi:id="_8aExwWE4Ee6HuOB7o3b2AA" fontName="Segoe UI"/>
-    <element xmi:type="proc:ActionProcessRef" href="resource.proc#5c3ddcf9-8736-4399-b1aa-015dacf3f030?fileId=2a764a92-1ab7-4b6d-9c21-0f73f0503d76$type=proc$name=LOAD_T_PHONE?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8aExwmE4Ee6HuOB7o3b2AA" x="532" y="201"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aslGUl8dEe6PHahGNfrU1Q" x="531" y="55"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_ZgrT4l8dEe6PHahGNfrU1Q"/>
   <element xmi:type="proc:ActionProcess" href="resource.proc#2a764a92-1ab7-4b6d-9c21-0f73f0503d76?fileId=2a764a92-1ab7-4b6d-9c21-0f73f0503d76$type=proc$name=DHB_REPLICATION_MOTEL?"/>
-  <edges xmi:type="notation:Edge" xmi:id="_8t_zUGE4Ee6HuOB7o3b2AA" type="4001" source="_aslGUF8dEe6PHahGNfrU1Q" target="_8aExwGE4Ee6HuOB7o3b2AA">
-    <styles xmi:type="notation:RoutingStyle" xmi:id="_8t_zUWE4Ee6HuOB7o3b2AA"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_8t_zUmE4Ee6HuOB7o3b2AA" fontName="Segoe UI"/>
-    <element xmi:type="proc:Link" href="resource.proc#470e44ca-36ca-4443-9eb9-691845d7a542?fileId=2a764a92-1ab7-4b6d-9c21-0f73f0503d76$type=proc?"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8t_zU2E4Ee6HuOB7o3b2AA" points="[11, 20, -32, -52]$[47, 93, 4, 21]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8t_zVGE4Ee6HuOB7o3b2AA" id="(0.42142857142857143,1.0)"/>
-  </edges>
 </notation:Diagram>
 ]]></diagram>
 </proc:process>
