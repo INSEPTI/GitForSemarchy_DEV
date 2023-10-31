@@ -17,7 +17,7 @@
 		<link>
 			<name>indy.build</name>
 			<type>2</type>
-			<location>C:/SemarchyWorkspaces/FormationGit/.indy.build/GitForSemarchy_DEV</location>
+			<locationURI>WORKSPACE_LOC/.indy.build/GitForSemarchy_DEV</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
