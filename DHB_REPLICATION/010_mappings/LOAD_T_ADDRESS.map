@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map:map xmlns:map="http://www.indy.com/v2/map" id="_MkuwgHf4Ee6W4ZbSQF_mUA" internalVersion="8" tech="resource.tech#_waYSMH8VEd2__Mzb_dB76A?fileId=_waYSMH8VEd2__Mzb_dB76A$type=tech$name=flow?">
+  <datastore id="_5_VtQHf4Ee6W4ZbSQF_mUA" alias="T_ADDRESS" dataset="_5_uHwHf4Ee6W4ZbSQF_mUA" ref="resource.md#_1jl6sHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=T_ADDRESS?">
+    <field id="_5_h6gXf4Ee6W4ZbSQF_mUA" fullAlias="ADR_CITY" name="ADR_CITY" ref="resource.md#_1k47MHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=ADR_CITY?"/>
+    <field id="_5_e3MHf4Ee6W4ZbSQF_mUA" fullAlias="ADR_ID" name="ADR_ID" ref="resource.md#_1kwYUHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=ADR_ID?" updateKey="true"/>
+    <field id="_5_h6gHf4Ee6W4ZbSQF_mUA" fullAlias="ADR_ZIP_CODE" name="ADR_ZIP_CODE" ref="resource.md#_1k3GAHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=ADR_ZIP_CODE?"/>
+    <field id="_5_hTcHf4Ee6W4ZbSQF_mUA" fullAlias="ADR_LINE3" name="ADR_LINE3" ref="resource.md#_1k0CsHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=ADR_LINE3?"/>
+    <field id="_5_ihkHf4Ee6W4ZbSQF_mUA" name="ADR_CEDEX" ref="resource.md#_1k7XcHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=ADR_CEDEX?"/>
+    <field id="_5_gFUHf4Ee6W4ZbSQF_mUA" fullAlias="CUS_ID" name="CUS_ID" ref="resource.md#_1kxmcHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=CUS_ID?"/>
+    <field id="_5_gFUXf4Ee6W4ZbSQF_mUA" fullAlias="ADR_LINE1" name="ADR_LINE1" ref="resource.md#_1ky0kHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=ADR_LINE1?"/>
+    <field id="_5_gsYHf4Ee6W4ZbSQF_mUA" fullAlias="ADR_LINE2" name="ADR_LINE2" ref="resource.md#_1kzboHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=ADR_LINE2?"/>
+    <field id="_5_hTcXf4Ee6W4ZbSQF_mUA" fullAlias="ADR_LINE4" name="ADR_LINE4" ref="resource.md#_1k1Q0Hf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=ADR_LINE4?"/>
+    <constraint id="_5_ihkXf4Ee6W4ZbSQF_mUA" name="FK_ADDRESS_CUSTOMER" ref="resource.md#_1l618Hf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=FK_ADDRESS_CUSTOMER?" reject="true"/>
+    <constraint id="_5_jIoHf4Ee6W4ZbSQF_mUA" name="PK_T_ADDRESS" ref="resource.md#_1lD6UHf4Ee6W4ZbSQF_mUA?fileId=_GiBAkF8UEe6PHahGNfrU1Q$type=md$name=PK_T_ADDRESS?" reject="true"/>
+  </datastore>
+  <datastore id="_6LD1EHf4Ee6W4ZbSQF_mUA" alias="T_ADDRESS_2" dataset="_6LLw4Hf4Ee6W4ZbSQF_mUA" ref="resource.md#_3szC4Hf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=T_ADDRESS?" subExpression="[A]">
+    <field id="_6LItkHf4Ee6W4ZbSQF_mUA" name="ADR_LAT" ref="resource.md#_3tRkAHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_LAT?">
+      <expression id="_-EbTUHf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_6LG4YHf4Ee6W4ZbSQF_mUA" enable="true" insert="true" name="ADR_LINE3" ref="resource.md#_3tNSkHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_LINE3?" update="true">
+      <expression id="_-Eb6YHf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>T_ADDRESS.ADR_LINE3</expression>
+      </expression>
+    </field>
+    <field id="_6LFqQXf4Ee6W4ZbSQF_mUA" enable="true" insert="true" name="ADR_LINE1" ref="resource.md#_3tLdYHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_LINE1?" update="true">
+      <expression id="_-Eb6YXf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>T_ADDRESS.ADR_LINE1</expression>
+      </expression>
+    </field>
+    <field id="_6LG4YXf4Ee6W4ZbSQF_mUA" enable="true" insert="true" name="ADR_LINE4" ref="resource.md#_3tNSl3f4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_LINE4?" update="true">
+      <expression id="_-EchcHf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>T_ADDRESS.ADR_LINE4</expression>
+      </expression>
+    </field>
+    <field id="_6LIGgHf4Ee6W4ZbSQF_mUA" name="ADR_STATE_CODE" ref="resource.md#_3tQV4Hf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_STATE_CODE?">
+      <expression id="_-EdIgHf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_6LJUoHf4Ee6W4ZbSQF_mUA" name="ADR_LON" ref="resource.md#_3tSLEHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_LON?">
+      <expression id="_-EdvkHf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression></expression>
+      </expression>
+    </field>
+    <field id="_6LFqQHf4Ee6W4ZbSQF_mUA" enable="true" insert="true" name="CUS_ID" ref="resource.md#_3tJoMHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=CUS_ID?" update="true">
+      <expression id="_-EdvkXf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>T_ADDRESS.CUS_ID</expression>
+      </expression>
+    </field>
+    <field id="_6LHfcXf4Ee6W4ZbSQF_mUA" enable="true" insert="true" name="ADR_CITY" ref="resource.md#_3tPu0Hf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_CITY?" update="true">
+      <expression id="_-Edvknf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>T_ADDRESS.ADR_CITY</expression>
+      </expression>
+    </field>
+    <field id="_6LFDMHf4Ee6W4ZbSQF_mUA" enable="true" insert="true" name="ADR_ID" ref="resource.md#_3tIaEHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_ID?" update="true" updateKey="true">
+      <expression id="_-EeWoHf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>T_ADDRESS.ADR_ID</expression>
+      </expression>
+    </field>
+    <field id="_6LFqQnf4Ee6W4ZbSQF_mUA" enable="true" insert="true" name="ADR_LINE2" ref="resource.md#_3tMEcHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_LINE2?" update="true">
+      <expression id="_-EeWoXf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>T_ADDRESS.ADR_LINE2</expression>
+      </expression>
+    </field>
+    <field id="_6LHfcHf4Ee6W4ZbSQF_mUA" enable="true" insert="true" name="ADR_ZIP_CODE" ref="resource.md#_3tPHwHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=ADR_ZIP_CODE?" update="true">
+      <expression id="_-EeWonf4Ee6W4ZbSQF_mUA" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>T_ADDRESS.ADR_ZIP_CODE</expression>
+      </expression>
+    </field>
+    <field id="_57ocgHf5Ee6W4ZbSQF_mUA" enable="true" insert="false" name="TEC_CREA_DATE" ref="resource.md#_5vPmVXf5Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=TEC_CREA_DATE?" update="true">
+      <expression id="_57ocgXf5Ee6W4ZbSQF_mUA" location="TRG" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>current_timestamp</expression>
+      </expression>
+    </field>
+    <field id="_57n1cHf5Ee6W4ZbSQF_mUA" enable="true" insert="true" name="TEC_CREA_UPD" ref="resource.md#_5vQNYHf5Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=TEC_CREA_UPD?" update="false">
+      <expression id="_57n1cXf5Ee6W4ZbSQF_mUA" location="TRG" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>current_timestamp</expression>
+      </expression>
+    </field>
+    <field id="_57pDkHf5Ee6W4ZbSQF_mUA" enable="true" insert="true" name="TEC_DATAFLOW" ref="resource.md#_5vRbgHf5Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=TEC_DATAFLOW?" update="true">
+      <expression id="_57pDkXf5Ee6W4ZbSQF_mUA" location="SRC" setDescriptorRef="_-ELbsHf4Ee6W4ZbSQF_mUA">
+        <expression>'%x{tech:mappingName()}x%'</expression>
+      </expression>
+    </field>
+    <constraint id="_6LJUoXf4Ee6W4ZbSQF_mUA" name="PK_T_ADDRESS" ref="resource.md#_3tXqoHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=PK_T_ADDRESS?" reject="true"/>
+    <constraint id="_6LJUonf4Ee6W4ZbSQF_mUA" name="FK_ADDRESS_CUSTOMER" ref="resource.md#_3uJGsHf4Ee6W4ZbSQF_mUA?fileId=_AGHUIF8UEe6PHahGNfrU1Q$type=md$name=FK_ADDRESS_CUSTOMER?" reject="true"/>
+    <setDescriptor id="_-ELbsHf4Ee6W4ZbSQF_mUA" label="A"/>
+  </datastore>
+  <template id="_-EmScHf4Ee6W4ZbSQF_mUA" name="I_T_ADDRESS_2" process="resource.proc#_HFOfdjEZEd-WZe6cNi2k2w?fileId=_HFOfdjEZEd-WZe6cNi2k2w$type=proc$name=INTEGRATION%20Hsql?" targetId="_6LD1EHf4Ee6W4ZbSQF_mUA"/>
+  <dataSet id="_5_uHwHf4Ee6W4ZbSQF_mUA">
+    <container>_5_VtQHf4Ee6W4ZbSQF_mUA</container>
+  </dataSet>
+  <dataSet id="_6LLw4Hf4Ee6W4ZbSQF_mUA">
+    <container>_6LD1EHf4Ee6W4ZbSQF_mUA</container>
+  </dataSet>
+  <hint>
+    <usedField>#_5_h6gXf4Ee6W4ZbSQF_mUA</usedField>
+    <usedField>#_5_e3MHf4Ee6W4ZbSQF_mUA</usedField>
+    <usedField>#_5_h6gHf4Ee6W4ZbSQF_mUA</usedField>
+    <usedField>#_5_hTcHf4Ee6W4ZbSQF_mUA</usedField>
+    <usedField>#_5_gFUHf4Ee6W4ZbSQF_mUA</usedField>
+    <usedField>#_5_gFUXf4Ee6W4ZbSQF_mUA</usedField>
+    <usedField>#_5_gsYHf4Ee6W4ZbSQF_mUA</usedField>
+    <usedField>#_5_hTcXf4Ee6W4ZbSQF_mUA</usedField>
+  </hint>
+  <diagram><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:map="http://www.indy.com/v2/map" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xsi:schemaLocation="http://www.eclipse.org/gmf/runtime/1.0.1/notation " xmi:id="_MnnFYHf4Ee6W4ZbSQF_mUA" type="Map" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_5_2DkHf4Ee6W4ZbSQF_mUA" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5_2qoHf4Ee6W4ZbSQF_mUA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5_2qoXf4Ee6W4ZbSQF_mUA" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5_2qonf4Ee6W4ZbSQF_mUA" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5_2qo3f4Ee6W4ZbSQF_mUA" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_5_2qpHf4Ee6W4ZbSQF_mUA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5_2qpXf4Ee6W4ZbSQF_mUA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5_2qpnf4Ee6W4ZbSQF_mUA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5_3RsHf4Ee6W4ZbSQF_mUA" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5_3RsXf4Ee6W4ZbSQF_mUA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5_3Rsnf4Ee6W4ZbSQF_mUA" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5_3Rs3f4Ee6W4ZbSQF_mUA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5_3RtHf4Ee6W4ZbSQF_mUA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_5_8xQHf4Ee6W4ZbSQF_mUA" type="7007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5_8xQXf4Ee6W4ZbSQF_mUA" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5_8xQnf4Ee6W4ZbSQF_mUA"/>
+    </children>
+    <element xmi:type="map:Datastore" href="resource.map#_5_VtQHf4Ee6W4ZbSQF_mUA?fileId=_MkuwgHf4Ee6W4ZbSQF_mUA$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5_2DkXf4Ee6W4ZbSQF_mUA" x="83" y="111"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_6LRQcHf4Ee6W4ZbSQF_mUA" type="2004" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6LR3gHf4Ee6W4ZbSQF_mUA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6LR3gXf4Ee6W4ZbSQF_mUA" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6LR3gnf4Ee6W4ZbSQF_mUA" type="7003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6LR3g3f4Ee6W4ZbSQF_mUA" type="7009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6LR3hHf4Ee6W4ZbSQF_mUA" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6LR3hXf4Ee6W4ZbSQF_mUA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6LR3hnf4Ee6W4ZbSQF_mUA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6LR3h3f4Ee6W4ZbSQF_mUA" type="5009">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_6LR3iHf4Ee6W4ZbSQF_mUA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6LR3iXf4Ee6W4ZbSQF_mUA" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6LR3inf4Ee6W4ZbSQF_mUA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6LR3i3f4Ee6W4ZbSQF_mUA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6LR3jHf4Ee6W4ZbSQF_mUA" type="7007"/>
+    <element xmi:type="map:Datastore" href="resource.map#_6LD1EHf4Ee6W4ZbSQF_mUA?fileId=_MkuwgHf4Ee6W4ZbSQF_mUA$type=map?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6LRQcXf4Ee6W4ZbSQF_mUA" x="418" y="83"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_MnnFYXf4Ee6W4ZbSQF_mUA"/>
+  <element xmi:type="map:Map" href="resource.map#_MkuwgHf4Ee6W4ZbSQF_mUA?fileId=_MkuwgHf4Ee6W4ZbSQF_mUA$type=map$name=LOAD_T_ADDRESS?"/>
+  <edges xmi:type="notation:Edge" xmi:id="_-Fg4cHf4Ee6W4ZbSQF_mUA" type="targetLink" source="_6LRQcHf4Ee6W4ZbSQF_mUA" target="_5_2DkHf4Ee6W4ZbSQF_mUA">
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Fg4cXf4Ee6W4ZbSQF_mUA" points="[-105, -8, 341, 27]$[-350, -27, 96, 8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-Fj7wHf4Ee6W4ZbSQF_mUA" type="targetDataSetLink" source="_6LRQcHf4Ee6W4ZbSQF_mUA" target="_6LRQcHf4Ee6W4ZbSQF_mUA">
+    <element xmi:type="map:DataSet" href="resource.map#_5_uHwHf4Ee6W4ZbSQF_mUA?fileId=_MkuwgHf4Ee6W4ZbSQF_mUA$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Fj7wXf4Ee6W4ZbSQF_mUA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-Fki0Hf4Ee6W4ZbSQF_mUA" type="targetSetLink" source="_6LRQcHf4Ee6W4ZbSQF_mUA" target="_6LRQcHf4Ee6W4ZbSQF_mUA">
+    <element xmi:type="map:SetDescriptor" href="resource.map#_-ELbsHf4Ee6W4ZbSQF_mUA?fileId=_MkuwgHf4Ee6W4ZbSQF_mUA$type=map?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Fki0Xf4Ee6W4ZbSQF_mUA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>
+]]></diagram>
+</map:map>
